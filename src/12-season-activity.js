@@ -48,6 +48,7 @@ export function getSeasonActivity(month, temperature) {
     case 10 :
     case 11 : season = "Autumn"; break;
     default : return null;
+    
   }
 
   switch(season) {
